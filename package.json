@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "toDoList-peerReview",
   "version": "1.0.0",
   "description": "\"To-do list\" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. I have built a simple website that allows for doing that, and I have done it using ES6 and Webpack!",
   "private": true,
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binyamolango/todo-list.git"
+    "url": "git+https://github.com/binyamolango/toDoListApp-peerReview.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/binyamolango/todo-list/issues"
+    "url": "https://github.com/binyamolango/toDoListApp-peerReview/issues"
   },
-  "homepage": "https://github.com/binyamolango/todo-list#readme",
+  "homepage": "https://github.com/binyamolango/toDoListApp-peerReview#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
