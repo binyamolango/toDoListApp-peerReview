@@ -35,7 +35,7 @@ const addTask = (e) => {
   const task = {
     description: tasksItem,
     completed: false,
-    index: tasks.length,
+    index: tasks.length + 1,
   };
   const filtered = [...tasks, task];
   localStorage.setItem('listItems', JSON.stringify(filtered));
@@ -51,7 +51,7 @@ const removeTask = (e) => {
   const filtered = tasks.filter((task) => task.index !== listNum);
   let filterOrder = [];
   filtered.forEach((task, count) => {
-    task.index = count;
+    task.index = count + 1;
     filterOrder = [...filterOrder, task];
   });
   localStorage.setItem('listItems', JSON.stringify(filterOrder));
